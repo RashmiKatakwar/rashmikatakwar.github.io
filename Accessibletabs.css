@@ -1,0 +1,25 @@
+﻿[role='tablist'] [aria-selected] {
+    border: solid black 3px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 3px;
+}
+[role='tablist'] a {
+    text-decoration: none;
+    padding: 2px;
+    border:1px solid gray;
+}
+[role='tablist'] li,[role='tablist'] a
+{
+    display:inline-block;
+      
+}
+
+[role='tabpanel'] {
+    border:dashed gray 2px;
+    padding: 2rem;
+    width: 20rem;
+    background-color: antiquewhite;
+}
+
+ 
